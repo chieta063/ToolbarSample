@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct SecondView: View {
-    var body: some View {
-      Text("2")
+  var body: some View {
+    ZStack {
+      Color.red
+      Text("2").foregroundColor(.white).font(.largeTitle)
     }
+  }
 }
 
 struct SecondView_Previews: PreviewProvider {
-    static var previews: some View {
-        SecondView()
-    }
+  static var previews: some View {
+    SecondView()
+  }
 }

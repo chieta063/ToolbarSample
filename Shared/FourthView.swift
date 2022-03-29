@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct FourthView: View {
-    var body: some View {
-      Text("4")
+  var body: some View {
+    ZStack {
+      Color.green
+      Text("4").foregroundColor(.white).font(.largeTitle)
     }
+  }
 }
 
 struct FourthView_Previews: PreviewProvider {
-    static var previews: some View {
-        FourthView()
-    }
+  static var previews: some View {
+    FourthView()
+  }
 }

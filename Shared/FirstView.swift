@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct FirstView: View {
-    var body: some View {
-        Text("1")
+  var body: some View {
+    ZStack {
+      Color.blue
+      Text("1").foregroundColor(.white).font(.largeTitle)
     }
+  }
 }
 
 struct FirstView_Previews: PreviewProvider {
-    static var previews: some View {
-        FirstView()
-    }
+  static var previews: some View {
+    FirstView()
+  }
 }

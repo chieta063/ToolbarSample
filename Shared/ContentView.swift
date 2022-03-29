@@ -20,18 +20,23 @@ struct ContentView: View {
   var isFirstSelected: Bool {
     currentView == .first
   }
+
   var isSecondSelected: Bool {
     currentView == .second
   }
+
   var isThirdSelected: Bool {
     currentView == .third
   }
+
   var isFourthSelected: Bool {
     currentView == .fourth
   }
+
   var isFifthSelected: Bool {
     currentView == .fifth
   }
+
   var body: some View {
     NavigationView {
       ZStack {
@@ -55,42 +60,42 @@ struct ContentView: View {
           Button {
             currentView = .first
           } label: {
-            Text("1").foregroundColor(isFirstSelected ? Color.blue: Color.gray)
+            Text("1").foregroundColor(isFirstSelected ? Color.blue : Color.gray)
           }
           .disabled(isFirstSelected)
           Spacer()
           Button {
             currentView = .second
           } label: {
-            Text("2").foregroundColor(isSecondSelected ? Color.blue: Color.gray)
+            Text("2").foregroundColor(isSecondSelected ? Color.blue : Color.gray)
           }
           .disabled(isSelected(currentView: currentView, targetView: .second))
           Spacer()
           Button {
             currentView = .third
           } label: {
-            Text("3").foregroundColor(isThirdSelected ? Color.blue: Color.gray)
+            Text("3").foregroundColor(isThirdSelected ? Color.blue : Color.gray)
           }
           .disabled(isSelected(currentView: currentView, targetView: .third))
           Spacer()
           Button {
             currentView = .fourth
           } label: {
-            Text("4").foregroundColor(isFourthSelected ? Color.blue: Color.gray)
+            Text("4").foregroundColor(isFourthSelected ? Color.blue : Color.gray)
           }
           .disabled(isSelected(currentView: currentView, targetView: .fourth))
           Spacer()
           Button {
             currentView = .fifth
           } label: {
-            Text("5").foregroundColor(isFifthSelected ? Color.blue: Color.gray)
+            Text("5").foregroundColor(isFifthSelected ? Color.blue : Color.gray)
           }
           .disabled(isSelected(currentView: currentView, targetView: .fifth))
         }
       }
     }
   }
-  
+
   func isSelected(currentView: ViewType, targetView: ViewType) -> Bool {
     return currentView == targetView
   }

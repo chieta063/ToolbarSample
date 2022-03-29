@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ThirdView: View {
-    var body: some View {
-        Text("3")
+  var body: some View {
+    ZStack {
+      Color.yellow
+      Text("3").foregroundColor(.white).font(.largeTitle)
     }
+  }
 }
 
 struct ThirdView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThirdView()
-    }
+  static var previews: some View {
+    ThirdView()
+  }
 }

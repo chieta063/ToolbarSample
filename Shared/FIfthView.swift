@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct FIfthView: View {
-    var body: some View {
-        Text("5")
+  var body: some View {
+    ZStack {
+      Color.brown
+      Text("5").foregroundColor(.white).font(.largeTitle)
     }
+  }
 }
 
 struct FIfthView_Previews: PreviewProvider {
-    static var previews: some View {
-        FIfthView()
-    }
+  static var previews: some View {
+    FIfthView()
+  }
 }
