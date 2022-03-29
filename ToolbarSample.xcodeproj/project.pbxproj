@@ -13,6 +13,16 @@
 		5300A8FD27F3056A00C89290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A8EB27F3056900C89290 /* ContentView.swift */; };
 		5300A8FE27F3056A00C89290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5300A8EC27F3056A00C89290 /* Assets.xcassets */; };
 		5300A8FF27F3056A00C89290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5300A8EC27F3056A00C89290 /* Assets.xcassets */; };
+		5300A90927F3059400C89290 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90827F3059400C89290 /* FirstView.swift */; };
+		5300A90A27F3059400C89290 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90827F3059400C89290 /* FirstView.swift */; };
+		5300A90C27F3059B00C89290 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90B27F3059B00C89290 /* SecondView.swift */; };
+		5300A90D27F3059B00C89290 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90B27F3059B00C89290 /* SecondView.swift */; };
+		5300A90F27F305A400C89290 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90E27F305A400C89290 /* ThirdView.swift */; };
+		5300A91027F305A400C89290 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A90E27F305A400C89290 /* ThirdView.swift */; };
+		5300A91227F305AD00C89290 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A91127F305AD00C89290 /* FourthView.swift */; };
+		5300A91327F305AD00C89290 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A91127F305AD00C89290 /* FourthView.swift */; };
+		5300A91527F305B600C89290 /* FIfthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A91427F305B600C89290 /* FIfthView.swift */; };
+		5300A91627F305B600C89290 /* FIfthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300A91427F305B600C89290 /* FIfthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,11 @@
 		5300A8F127F3056A00C89290 /* ToolbarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5300A8F727F3056A00C89290 /* ToolbarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5300A8F927F3056A00C89290 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5300A90827F3059400C89290 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		5300A90B27F3059B00C89290 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		5300A90E27F305A400C89290 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		5300A91127F305AD00C89290 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		5300A91427F305B600C89290 /* FIfthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIfthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,11 @@
 				5300A8EA27F3056900C89290 /* ToolbarSampleApp.swift */,
 				5300A8EB27F3056900C89290 /* ContentView.swift */,
 				5300A8EC27F3056A00C89290 /* Assets.xcassets */,
+				5300A90827F3059400C89290 /* FirstView.swift */,
+				5300A90B27F3059B00C89290 /* SecondView.swift */,
+				5300A90E27F305A400C89290 /* ThirdView.swift */,
+				5300A91127F305AD00C89290 /* FourthView.swift */,
+				5300A91427F305B600C89290 /* FIfthView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,6 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5300A8FC27F3056A00C89290 /* ContentView.swift in Sources */,
+				5300A90F27F305A400C89290 /* ThirdView.swift in Sources */,
+				5300A90927F3059400C89290 /* FirstView.swift in Sources */,
+				5300A90C27F3059B00C89290 /* SecondView.swift in Sources */,
+				5300A91527F305B600C89290 /* FIfthView.swift in Sources */,
+				5300A91227F305AD00C89290 /* FourthView.swift in Sources */,
 				5300A8FA27F3056A00C89290 /* ToolbarSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +211,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5300A8FD27F3056A00C89290 /* ContentView.swift in Sources */,
+				5300A91027F305A400C89290 /* ThirdView.swift in Sources */,
+				5300A90A27F3059400C89290 /* FirstView.swift in Sources */,
+				5300A90D27F3059B00C89290 /* SecondView.swift in Sources */,
+				5300A91627F305B600C89290 /* FIfthView.swift in Sources */,
+				5300A91327F305AD00C89290 /* FourthView.swift in Sources */,
 				5300A8FB27F3056A00C89290 /* ToolbarSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
